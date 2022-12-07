@@ -1,9 +1,9 @@
 schedule==1.1.0
-numpy==1.22.3
+numpy==1.23.5
 argparse==1.4.0
 imutils==0.5.4
 dlib==19.18.0
-opencv-python==4.5.5.64
+opencv-python==4.6.0.66
 scipy==1.8.0
-cmake==3.22.5
+cmake==3.25.0
 discord-webhook==1.0.0

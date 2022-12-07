@@ -13,7 +13,6 @@ from discord_webhook import DiscordWebhook
 import os
 
 t0 = time.time()
-# TODO: make it a secret file
 webhook_url = os.getenv("WEBHOOK_URL")
 
 
@@ -236,7 +235,8 @@ def run(last_epoch=time.time()):
                     webhook.add_file(file=f.read(), filename="current_UPL.jpg")
                 print(webhook.execute())
 
-                time.sleep(10)
+                # sleep for ~15 min
+                time.sleep(890)
                 return time.time()
             return last_epoch
 

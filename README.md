@@ -1,6 +1,16 @@
 # UPL People Counter
 A WIP people counting model for the UPL.
 * Assign yourself to an issue if you want to contribute.
+
+### TO DO
+- [ ] Update the Discord webhook interface.
+- [ ] Add website integration.
+- [ ] Fine tune the model for accuracy.
+- [ ] Add scheduling.
+- [ ] Clean up the code in general.
+- [ ] Dockerize for easier deployment?
+
+
 Below is the original model README.
 
 # People-Counting-in-Real-Time
